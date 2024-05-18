@@ -73,9 +73,18 @@
     iceCream: "pistachio"
   };
   // TODO: create objects and assign them below.
-  let person3 = {};
-  let person4 = {};
-  let person5 = {};
+  let person3 = {
+    name: "joe",
+    iceCream: "coffee"
+  };
+  let person4 = {
+    name: "sarah",
+    iceCream: "vanilla"
+  };
+  let person5 = {
+    name: "jalia",
+    iceCream: "butterPecan"
+  };
   
   document.write(`${person1.name} likes ${person1.iceCream} <br>`)
   document.write(`${person2.name} likes ${person2.iceCream} <br>`)
@@ -104,17 +113,37 @@
   person1 = {
     name: "andy",
     iceCream: "choco",
-    shirt: "white"
+    shirt: "blue"
   };
 
   // TODO: re-assign these variables
-  person2 = {};
-  person3 = {};
-  person4 = {};
-  person5 = {};
+  person2 = {
+    name: "betty",
+    iceCream: "pistachio",
+    shirt: "green"
+  };
+  person3 = {
+    name: "joe",
+    iceCream: "coffee",
+    shirt: "orange"
+  };
+  person4 = {
+    name: "sarah",
+    iceCream: "vanilla",
+    shirt: "purple"
+  };
+  person5 = {
+    name: "jalia",
+    iceCream: "butterPecan",
+    shirt: "grey"
+  };
 
   document.write(`${person1.name} likes ${person1.iceCream} and is wearing a ${person1.shirt} shirt <br>`)
   // TODO: write them all out
+  document.write(`${person2.name} likes ${person2.iceCream} and is wearing a ${person2.shirt} shirt <br>`)
+  document.write(`${person3.name} likes ${person3.iceCream} and is wearing a ${person3.shirt} shirt <br>`)
+  document.write(`${person4.name} likes ${person4.iceCream} and is wearing a ${person4.shirt} shirt <br>`)
+  document.write(`${person5.name} likes ${person5.iceCream} and is wearing a ${person5.shirt} shirt <br.`)
 
 
 </script>
@@ -126,11 +155,31 @@
 <script>
 
   // TODO: make at least 5 objects and assign them to variables
-
+  let dog1={
+    name: "Snoop",
+    breed: "German Shepherd",
+    size: "large"
+};
+  let dog2={
+    name: "Paris",
+    breed: "yorkie",
+    size: "small"
+  };
+  let dog3={
+    name: "London",
+    breed: "doodle",
+    size: "small";
+  };
+  let dog4={
+    name: "Ghost",
+    breed: "pitt",
+    size: "medium"
+  };
 
   // TODO: write them out all to the document
-
-
+document.write(`Our first and only dog name is ${dog1.name} and he is a ${dog1.size} ${dog1.breed}.<br>`)
+document.write(`The second dog name is ${dog2.name} and she is a ${dog2.size} ${dog2.breed}.<br>`)
+document.write(`The third dog name is ${dog3.name} amd she is a ${dog3.size} ${dog3.breed}`)
 </script>
 
 <h2>Bonus: Objects and Arrays</h2>
@@ -163,15 +212,28 @@
 </h3>
 <p>Try to create an array of your own objects. Then access them by index in the array. Then access the properties. Share with a partner if you get stuck.</p>
 
-<script>
   // TODO: make an array of some object
-  let arrayOfSomething = [
-    {},
-    {},
-    {}
-  ];
+  <pre>
+    let sodaArray = [
+    {
+      name:  "Dr.pepper",
+      color: "brown"
+    },
+    {
+      name: "Fanta",
+      color: "orange"
+    },
+    {
+      name: "RootBeer",
+      color: "brown"
+    }
+  ]
+</pre>
 
   // TODO: print them out to the document.
+  <script> 
+  document.write(`The popular sodas are ${sodaArray}`)
+  </script>
   // Think about combining what you know about arrays and objects. Ask for help if stuck!
 
 </script>
